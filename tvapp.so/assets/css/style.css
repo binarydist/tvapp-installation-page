@@ -1,0 +1,67 @@
+﻿body { font-family: Consolas, DroidSansRegular, STheiti, SimHei, STXihei; font-size: 62.5%; }
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+#wrapper {width:100%; min-width:350px; margin:0 auto;text-align:center;}
+#header{border-bottom:#DDD 1px solid; padding-top:15px; padding-bottom:10px;}
+#header #title{
+    font-size:1.4em;
+    font-weight:bold;
+    margin:10px 0;
+}
+#footer{border-top:#DDD 1px solid; }
+#footer p{
+    width:290px;
+    margin:20px auto 30px auto;
+    font-size:1.2em;
+}
+
+#content{
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#content #description{
+    width:290px;
+    line-height:20px;
+    margin:20px auto 30px auto;
+    text-align:left;
+    background:url(../images/red.png) left center no-repeat;
+    padding-left:10px;
+    font-size:1.4em;
+}
+.download{
+    margin-top:15px;
+    margin-bottom:30px;
+    color:#F6517D;
+    font-size:1.4em;
+    font-weight:bold;
+}
+.download div {
+    
+}
+.download a{
+    color:#F6517D;
+}
+.download .item{
+    width:220px;
+    line-height:25px;
+    margin:10px auto 20px auto;
+}
+.download .android{
+    background:url(../images/android-logo.png) left center no-repeat;
+}
+.download .ios{
+    background:url(../images/apple-logo.png) left center no-repeat;
+}
+.download .winpc{
+    background:url(../images/windows-logo.png) left center no-repeat;
+}
+.download .macpc{
+    background:url(../images/apple-logo.png) left center no-repeat;
+}
